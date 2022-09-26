@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <section className="menu-container">
+        <nav className="menu">
+          <p className="logo">Logo</p>
+          <section className="links">
+            <a href="" className="contacts">Contacts</a>
+            <a href="" className="login">Login</a>
+          </section>
+        </nav>
+      </section>
     </div>
   );
 }
